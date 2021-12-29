@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'in.mcxiv.app'
+version '0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'net.jafama:jafama:2.3.2'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+}
+
+test {
+    useJUnitPlatform()
+}
