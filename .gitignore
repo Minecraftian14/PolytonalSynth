@@ -1,3 +1,6 @@
 /build/
 /.idea/
 /out/
+/.gradle/
+/src/main/java/jvst/
+/src/main/resources/
